@@ -59,3 +59,26 @@
 4. 文档中已对敏感凭据做占位符处理；公开仓库中的地址、域名、设备名、MAC 等信息会额外做脱敏。
 5. 本仓库记录的是一套实战可运行方案，不是通用最佳实践。
 
+### ❤️ 赞助支持
+
+如果这套笔记对你有帮助，欢迎请我喝杯咖啡。
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://Hi-Jiajun.github.io/picx-images-hosting/wechat_qrcode.icohq9bcf.webp" alt="微信赞赏码" width="220" />
+    </td>
+    <td align="center">
+      <img src="https://Hi-Jiajun.github.io/picx-images-hosting/alipay_qrcode.7p45v27tjq.webp" alt="支付宝收款码" width="220" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">微信</td>
+    <td align="center">支付宝</td>
+  </tr>
+</table>
+
+### ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Hi-Jiajun/vpp-router-toss-notes-public&type=Date)](https://star-history.com/#Hi-Jiajun/vpp-router-toss-notes-public&Date)
+
