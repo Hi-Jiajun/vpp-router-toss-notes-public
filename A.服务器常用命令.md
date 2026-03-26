@@ -101,13 +101,17 @@ dnsmasq --test
 # 直接用系统 resolver 查询
 getent hosts www.baidu.com
 
-# 使用 nslookup 测试上游
+# 使用 nslookup 测试主路由当前 DNS
 nslookup www.baidu.com 192.168.1.1
+
+# 使用 nslookup 测试主上游
 nslookup www.baidu.com 192.168.1.2
-nslookup www.baidu.com 192.168.1.250
 
 # 测试 IPv6 AAAA 解析
 nslookup -type=AAAA www.qq.com 192.168.1.1
+
+# 查看本机 mini-ppdns 配置
+sed -n '1,200p' /etc/mini-ppdns.ini
 ```
 
 ## 🧪 连通性测试
@@ -201,6 +205,9 @@ systemctl status qemu-guest-agent
 # 查看 dnsmasq
 systemctl status dnsmasq
 
+# 查看 mini-ppdns 进程
+ps -ef | grep mini-ppdns | grep -v grep
+
 # 查看 VPP
 systemctl status vpp
 
@@ -212,6 +219,9 @@ sudo systemctl restart vpp
 
 # 重新加载 systemd
 sudo systemctl daemon-reload
+
+# 查看 root 当前 crontab
+crontab -l
 ```
 
 ## 🧭 路由与辅助节点

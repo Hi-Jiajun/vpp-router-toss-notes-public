@@ -12,7 +12,8 @@
   - Telegram IPv4/IPv6 静态路由
 - 控制面：
   - `Linux`
-  - `dnsmasq`
+  - `dnsmasq (DHCP / RA)`
+  - `mini-ppdns (DNS)`
   - `LCP` 对出的 `lan0`
   - `vpphost0` 作为 Linux 通过 VPP 上网的内部出口
 - 部署形态：
@@ -44,7 +45,7 @@
 5. [04. Ubuntu 设置系统网络](./04.Ubuntu_设置系统网络.md)
 6. [05. 拓扑与地址规划](./05.拓扑与地址规划.md)
 7. [06. VPP 主配置](./06.VPP_主配置.md)
-8. [07. dnsmasq 配置](./07.dnsmasq_配置.md)
+8. [07. dnsmasq 与 mini-ppdns](./07.dnsmasq_与_mini-ppdns.md)
 9. [08. Linux 通过 VPP 出网](./08.Linux_通过_VPP_出网.md)
 10. [09. Telegram 静态路由](./09.Telegram_静态路由.md)
 11. [10. 验证与排障](./10.验证与排障.md)
