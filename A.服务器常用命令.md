@@ -13,7 +13,7 @@
 
 但内容已经改成更贴近当前这套 `VPP + Linux` 路由环境的常用命令集。
 
-## VPP
+## 🧠 VPP
 
 ```bash
 # 查看 VPP 版本
@@ -56,7 +56,7 @@ vppctl ping 223.5.5.5
 vppctl ping ipv6 2400:3200::1 source lan0phy repeat 3
 ```
 
-## 网络
+## 🌐 网络
 
 ```bash
 # 查看本机网卡概览
@@ -92,7 +92,7 @@ networkctl status enp1s0
 networkctl status enp2s0
 ```
 
-## DNS 与解析
+## 🔎 DNS 与解析
 
 ```bash
 # 语法检查 dnsmasq
@@ -110,7 +110,7 @@ nslookup www.baidu.com 192.168.1.250
 nslookup -type=AAAA www.qq.com 192.168.1.1
 ```
 
-## 连通性测试
+## 🧪 连通性测试
 
 ```bash
 # 测试 Linux 到 VPP 内部通道
@@ -129,7 +129,7 @@ ping -c 3 192.168.1.4
 ping -c 3 192.168.1.250
 ```
 
-## 日志
+## 🪵 日志
 
 ```bash
 # 查看系统日志尾部
@@ -151,7 +151,7 @@ tail -n 80 /var/log/dnsmasq.log
 tail -n 30 -f /var/log/dnsmasq.log
 ```
 
-## 系统
+## 🖥️ 系统
 
 ```bash
 # 查看时间
@@ -189,7 +189,7 @@ sudo netplan generate
 sudo netplan apply
 ```
 
-## 服务
+## 🔧 服务
 
 ```bash
 # 查看 networkd
@@ -214,7 +214,7 @@ sudo systemctl restart vpp
 sudo systemctl daemon-reload
 ```
 
-## 路由与辅助节点
+## 🧭 路由与辅助节点
 
 ```bash
 # 查看 Telegram IPv4 路由下一跳
@@ -227,7 +227,7 @@ vppctl show ip6 fib | grep 'fd00:1234:5678:1::254'
 vppctl show ip fib | grep '7.0.0.0/8'
 ```
 
-## 故障前取证
+## 🚨 故障前取证
 
 下面这组命令适合在“怀疑网络异常，但还没决定重启服务”时先保存现场：
 
