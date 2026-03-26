@@ -34,12 +34,12 @@
 1. [00. PVE 创建路由虚拟机](./00.PVE_创建路由虚拟机.md)
 2. [01. Ubuntu 安装操作系统](./01.Ubuntu_安装操作系统.md)
 3. [02. Ubuntu 安装系统软件](./02.Ubuntu_安装系统软件.md)
-4. [03. 拓扑与地址规划](./03.拓扑与地址规划.md)
-5. [04. VPP 主配置](./04.VPP_主配置.md)
-6. [05. dnsmasq 配置](./05.dnsmasq_配置.md)
-7. [06. Linux 通过 VPP 出网](./06.Linux_通过_VPP_出网.md)
-8. [07. Telegram 静态路由](./07.Telegram_静态路由.md)
-9. [08. sysctl 与 netplan](./08.sysctl_与_netplan.md)
+4. [03. Ubuntu 设置系统参数](./03.Ubuntu_设置系统参数.md)
+5. [04. 拓扑与地址规划](./04.拓扑与地址规划.md)
+6. [05. VPP 主配置](./05.VPP_主配置.md)
+7. [06. dnsmasq 配置](./06.dnsmasq_配置.md)
+8. [07. Linux 通过 VPP 出网](./07.Linux_通过_VPP_出网.md)
+9. [08. Telegram 静态路由](./08.Telegram_静态路由.md)
 10. [09. 验证与排障](./09.验证与排障.md)
 
 ### 预留目录
